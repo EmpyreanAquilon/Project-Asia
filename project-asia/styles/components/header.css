@@ -1,0 +1,40 @@
+.page-header {
+    padding: 25px 0;    
+    color: #fff;
+}
+.page-header__content {
+
+}
+.site-logo {
+    width: 85px;
+    height: 36px;
+    display: inline-block;
+    margin-right: 79px;
+}
+
+.site-nav {
+    display: inline-block;
+    vertical-align: super;
+}
+.site-nav__list {
+}
+.site-nav__item {
+    display: inline-block;
+    margin-right: 54px;
+    font-size: 14px;
+}
+.site-nav__link {
+
+}
+
+.site-address {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+.site-address__phone {
+    font-size: 26px;
+}
+.site-address__text {
+
+}

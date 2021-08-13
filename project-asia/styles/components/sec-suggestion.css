@@ -1,0 +1,62 @@
+.suggestions {
+    color: #000;
+}
+.suggestions__content {
+
+}
+.suggestions__title {
+    margin: 50px 0;
+    color: #fff;
+    font-size: 36px;
+}
+.suggestions__title img {
+    width: 21px;
+    margin-left: 12px;
+}
+.suggestions__list {
+
+}
+.tour {
+    display: inline-block;
+    background: white;
+    width: 362px;
+    height: 450px;
+    margin-right: 27px;
+    border-radius: 5px;
+}
+.tour:last-child {
+    margin: 0;
+}
+.tour__picture {
+
+}
+.tour__info {
+    width: 324px;
+    margin: 33px 0 0 22px;
+}
+.tour__title {
+    font-size: 24px;
+    margin: 5px 0px 20px 0px;
+}
+.tour__food, .tour__duration {
+    display: inline-block;
+    width: 120px;
+    font-size: 16px;
+    margin-right: 28px;
+}
+.tour__food img, .tour__duration img {
+    margin-right: 4px;
+    position: relative;
+    top: 4px;
+}
+.tour__food img {
+    width: 36px;
+    height: 26px;
+}
+.tour__duration img {
+    width: 26px;
+    height: 26px;
+}
+.tour__desc {
+    margin: 24px 0px;
+}
