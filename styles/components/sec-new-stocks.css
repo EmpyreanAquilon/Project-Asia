@@ -1,0 +1,76 @@
+.news-stocks {
+    color: white;
+}
+.news-stocks__content {
+
+}
+.news-stocks__title {
+    margin: 50px 0;
+    color: #fff;
+    font-size: 36px;
+}
+.news-stocks__list {
+}
+.block-news {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+    position: relative;
+    z-index: 4;
+    width: 557px;
+    height: 394px;
+}
+.block-news:last-child {
+    margin: 0;
+}
+.block-news__bg {
+    position: absolute;
+    z-index: 0;
+}
+.block-news__desc {
+    position: relative;
+    z-index: 0;
+    top: 252px;
+    left: 30px;
+}
+.block-news__data {
+    font-size: 14px;
+}
+.block-news__title {
+    font-size: 24px;
+    margin: 12px 0px 3px;
+}
+.block-news__text {
+    font-size: 16px;
+}
+.pagin-news {
+    font-size: 16px;
+    margin: 57px 0 152px;
+}
+.pagin-news__text {
+    display: inline-block;
+    margin: 0 25px 0 380px;    
+    word-spacing: 3px;
+    line-height: 25px;
+}
+.pagin-news__list {
+    display: inline-block;
+}
+.pagin-news__item {
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.pagin-news__item a {
+    color: inherit;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.pagin-news__item:hover {
+    color: red;
+    background: white;
+}

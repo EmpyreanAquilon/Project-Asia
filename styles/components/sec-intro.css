@@ -1,0 +1,19 @@
+.intro {
+    height: 580px;
+    color: white;
+}
+.intro__content {
+    width: 510px;
+    margin-top: 120px;
+}
+.intro__title {
+    font-size: 72px;
+    margin: 0;
+}
+.intro__text {
+    font-size: 18px;
+    margin: 27px 0px 33px 0px;
+}
+.btn-detail {
+
+}

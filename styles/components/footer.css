@@ -1,0 +1,66 @@
+.page-footer {
+    color: #fff;
+}
+.page-footer__content {
+    padding: 25px 0;    
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+.site-logo {
+    width: 85px;
+    height: 36px;
+    display: inline-block;
+    margin-right: 79px;
+}
+
+.site-nav {
+    display: inline-block;
+    vertical-align: super;
+}
+.site-nav__list {
+}
+.site-nav__item {
+    display: inline-block;
+    margin-right: 54px;
+    font-size: 14px;
+}
+.site-nav__link {
+
+}
+
+.social {
+    display: inline-block;
+    margin-left: 220px;
+}
+.social__item {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;    
+}
+.social__item:nth-child(1) {background: url('/img/icons/telegram.svg');}
+.social__item:nth-child(2) {background: url('/img/icons/vk.svg');}
+.social__item:nth-child(3) {background: url('/img/icons/f.svg');}
+.social__item:nth-child(4) {background: url('/img/icons/in.svg');}
+.social__link {    
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.social__link:hover {
+    background: rgba(230, 228, 228, 0.5);
+} 
+
+.site-address {
+    display: inline-block;
+    float: right;
+    text-align: right;
+    font-style: normal;
+}
+.site-address__phone {
+    font-size: 26px;
+}
+.site-address__text-2 {
+    font-size: 11px;
+    color: #9A9A9A;
+}

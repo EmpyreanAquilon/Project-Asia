@@ -1,0 +1,27 @@
+.btn {
+    display: block;
+    width: 168px;
+    height: 55px;
+    background: #F5170E;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 53px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.btn-detail:hover {
+    background: #DA0100;
+}
+.btn-view {
+    background: white;
+    color: #F5170E;
+    border: solid 1px red;
+    width: 135px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.btn-view:hover {
+    background: #F5170E;
+    color: white;
+}
