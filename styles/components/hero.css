@@ -1,0 +1,21 @@
+.hero {
+    position: relative;
+    z-index: 1;
+    min-height: 670px;
+    color: white;
+}
+.hero__content {
+    width: 510px;
+    margin: 90px 0px 0px 0px;
+}
+.hero__title {
+    font-size: 72px;
+    margin: 0;
+}
+.hero__text {
+    font-size: 18px;
+    margin: 27px 0px 33px 0px;
+}
+.btn-detail {
+
+}

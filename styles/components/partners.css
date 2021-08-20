@@ -8,14 +8,12 @@
     margin: 83px 0px 86px 0px;
 }
 .partners__list {
-    border: solid 1px black;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 .partners__item {
-    background: rgba(0,255,0,0.5);
     flex: 0 1 21%;
     margin: 0px 0px 70px 0px;
 }
