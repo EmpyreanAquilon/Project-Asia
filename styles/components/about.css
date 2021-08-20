@@ -1,0 +1,41 @@
+.about {
+    margin: 140px 0px 45px 0px;
+}
+.about__content {
+    height: 550px;
+    position: relative;
+}
+.about__block-1 {
+    position: absolute;
+    width: 490px;
+    height: 505px;
+}
+.about__block-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 785px;
+    height: 455px;
+    color: #000;
+}
+.about__img-2 {
+    position: absolute;
+    z-index: 0;
+}
+.about__desc {
+    position: absolute;
+    top: 70px;
+    left: 80px;    
+    width: 500px;
+}
+.about__title {    
+    font-size: 36px;
+}
+.about__text {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 37px 0px 43px;
+}
+.about .btn {
+    color: #fff;
+}

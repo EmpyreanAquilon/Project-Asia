@@ -1,0 +1,39 @@
+.headline {
+    height: 412px;
+    background: url('../../img/backgrounds/headline.png') center no-repeat;
+}
+.headline .site-logo {
+    width: 106px;
+    height: 40px;
+    margin: 0 62px 5px 0;
+}
+.headline .site-nav__list {
+    margin: 4px 0px 0px 0px;
+}
+.headline__content {
+    margin-top: 70px;
+}
+.headline__title {
+    font-size: 72px;
+    margin: 0px 0px 105px 0px;
+}
+.breadscrumbs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.breadscrumbs__item {
+    margin-right: 5px;
+    font-size: 14px;
+    color: #9A9A9A;
+    text-decoration: underline;
+}
+.breadscrumbs__item-current {
+    font-weight: bold;
+}
+.breadscrumbs__item-gap {
+    text-decoration: none;
+}
+.breadscrumbs__link {
+
+}

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.36;
+    background: #001821;
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+.wrapper {
+
+}
+.main-wrapper {
+    background: url('./../../img/backgrounds/1.png') top center no-repeat, url('./../../img/backgrounds/2.png') bottom center no-repeat;
+}
+.wrapper-services, .wrapper-feedback {
+    background: #fff;
+}
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 5px;
+}

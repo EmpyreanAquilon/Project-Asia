@@ -1,0 +1,21 @@
+.intro {
+    position: relative;
+    z-index: 1;
+    min-height: 670px;
+    color: white;
+}
+.intro__content {
+    width: 510px;
+    margin: 90px 0px 0px 0px;
+}
+.intro__title {
+    font-size: 72px;
+    margin: 0;
+}
+.intro__text {
+    font-size: 18px;
+    margin: 27px 0px 33px 0px;
+}
+.btn-detail {
+
+}
