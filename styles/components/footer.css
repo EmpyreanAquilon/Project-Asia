@@ -37,10 +37,10 @@
     height: 36px;
     margin-right: 10px;    
 }
-.social__item:nth-child(1) {background: url('/img/icons/telegram.svg');}
-.social__item:nth-child(2) {background: url('/img/icons/vk.svg');}
-.social__item:nth-child(3) {background: url('/img/icons/f.svg');}
-.social__item:nth-child(4) {background: url('/img/icons/in.svg');}
+.social__item:nth-child(1) {background: url('../../img/icons/telegram.svg');}
+.social__item:nth-child(2) {background: url('../../img/icons/vk.svg');}
+.social__item:nth-child(3) {background: url('../../img/icons/f.svg');}
+.social__item:nth-child(4) {background: url('../../img/icons/in.svg');}
 .social__link {    
     display: inline-block;
     width: 100%;
