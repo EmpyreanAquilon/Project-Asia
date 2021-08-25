@@ -4,18 +4,8 @@
 .advertisemen__content {
     position: relative;
     min-height: 363px;
+    margin-top: 60px;
 }
-/* .advertisemen__background {
-    position: absolute;
-    left: 50%;
-    width: 100%;
-    transform: translateX(-50%);
-
-}
-.advertisemen__background img {
-    object-fit: none;
-    object-position: center;
-} */
 .advertisemen__image {
     position: absolute;
     top: 22px;

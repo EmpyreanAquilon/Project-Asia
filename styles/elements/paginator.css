@@ -1,8 +1,11 @@
 .paginator {
     font-size: 16px;
-    margin: 53px 0 0px;
-    display: flex;
+    max-width: 400px;
+    margin: 53px auto 0px;
     align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .news-stocks__paginator {
     color: white;
@@ -11,7 +14,7 @@
     color: black;
 }
 .paginator__text {
-    margin: 0 30px 0 380px;    
+    margin: 0 30px 0 0px;    
     line-height: 25px;
 }
 .paginator__list {

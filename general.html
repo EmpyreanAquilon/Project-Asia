@@ -9,18 +9,18 @@
     <title>Project Asia General</title>
 </head>
 <body>
-    <div class="wrapper main-wrapper">
+    <div class="wrapper wrapper-general">
         <header class="page-header">
-            <div class="container">
+            <div class="page-header__container container">
                 <div class="page-header__content">
                     <div class="page-header__logo site-logo">
-                        <a href="#" class="site-logo__link">
+                        <a href="./index.html" class="site-logo__link">
                             <img src="./img/icons/лого.svg" alt="site-logo">
                         </a>
                     </div>
                     <nav class="page-header__nav site-nav">
                         <ul class="site-nav__list">
-                            <li class="site-nav__item">
+                            <li class="site-nav__item site-nav__item-active">
                                 <a href="./general.html" class="site-nav__link">Главная</a>
                             </li>
                             <li class="site-nav__item">
@@ -32,7 +32,7 @@
                         </ul>
                     </nav>
                     <address class="page-header__address header-site-address">
-                        <a href="tel:+78007003030" class="header-site-address__phone">8 800 700 30 30</a>
+                        <a href="#" class="header-site-address__phone">8 800 700 30 30</a>
                         <div class="header-site-address__dropdown-title">График работы</div>
                         <div class="header-site-address__dropdown-window">
                             <p class="header-site-address__dropdown-text-1">пн-вс: 09-00 - 20:00</p>
@@ -44,16 +44,16 @@
         </header>
         <main class="page-main">
             <section class="hero">
-                <div class="container">
+                <div class="hero__container container">
                     <div class="hero__content">                        
                         <h1 class="hero__title">Авторские туры по Азии</h1>
                         <p class="hero__text">Открой для себя Азию</p>
-                        <a href="#" class="btn btn-detail">Подробнее</a>
+                        <a href="#" class="hero__btn btn">Подробнее</a>
                     </div>
                 </div>
             </section>
             <section class="suggestions">
-                <div class="container">
+                <div class="suggestions__container container">
                     <div class="suggestions__content">
                         <h2 class="suggestions__title">
                             Горящие туры
@@ -62,20 +62,22 @@
                         <ul class="suggestions__list">
                             <li class="suggestions__item tour">
                                 <div class="tour__picture">
-                                    <img src="/img/backgrounds/river.png" alt="landscape">
+                                    <img src="./img/backgrounds/river.png" alt="landscape">
                                 </div>
                                 <div class="tour__info">
                                     <h2 class="tour__title">Таиланд</h2>
-                                    <div class="tour__duration">
-                                        <img src="./img/icons/calendar.svg" alt="icon-calendar">
-                                        7-12 ночей
-                                    </div>
-                                    <div class="tour__food">
-                                        <img src="./img/icons/meal.svg" alt="icon-food">
-                                        Завтраки
+                                    <div class="tour__block-icons">
+                                        <div class="tour__duration">
+                                            <img src="./img/icons/calendar.svg" alt="icon-calendar">
+                                            <span>7-12 ночей</span>
+                                        </div>
+                                        <div class="tour__food">
+                                            <img src="./img/icons/meal.svg" alt="icon-food">
+                                            <span>Завтраки</span>
+                                        </div>
                                     </div>
                                     <p class="tour__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repudiandae ducimus odio saepe ullam.</p>
-                                    <a href="#" class="btn btn-view">Смотреть</a>
+                                    <a href="#" class="tour__btn btn">Смотреть</a>
                                 </div>
                             </li>
                             <li class="suggestions__item tour">
@@ -84,16 +86,18 @@
                                 </div>
                                 <div class="tour__info">
                                     <h2 class="tour__title">Бали</h2>
-                                    <div class="tour__duration">
-                                        <img src="./img/icons/calendar.svg" alt="icon-calendar">
-                                        7-12 ночей
-                                    </div>
-                                    <div class="tour__food">
-                                        <img src="./img/icons/meal.svg" alt="icon-food">
-                                        Завтраки
+                                    <div class="tour__block-icons">
+                                        <div class="tour__duration">
+                                            <img src="./img/icons/calendar.svg" alt="icon-calendar">
+                                            <span>7-12 ночей</span>
+                                        </div>
+                                        <div class="tour__food">
+                                            <img src="./img/icons/meal.svg" alt="icon-food">
+                                            <span>Завтраки</span>
+                                        </div>
                                     </div>
                                     <p class="tour__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repudiandae ducimus odio saepe ullam.</p>
-                                    <a href="#" class="btn btn-view">Смотреть</a>
+                                    <a href="#" class="tour__btn btn">Смотреть</a>
                                 </div>
                             </li>
                             <li class="suggestions__item tour">
@@ -102,16 +106,18 @@
                                 </div>
                                 <div class="tour__info">
                                     <h2 class="tour__title">Индонезия</h2>
-                                    <div class="tour__duration">
-                                        <img src="./img/icons/calendar.svg" alt="icon-calendar">
-                                        7-12 ночей
-                                    </div>
-                                    <div class="tour__food">
-                                        <img src="./img/icons/meal.svg" alt="icon-food">
-                                        Завтраки
+                                    <div class="tour__block-icons">
+                                        <div class="tour__duration">
+                                            <img src="./img/icons/calendar.svg" alt="icon-calendar">
+                                            <span>7-12 ночей</span>
+                                        </div>
+                                        <div class="tour__food">
+                                            <img src="./img/icons/meal.svg" alt="icon-food">
+                                            <span>Завтраки</span>
+                                        </div>
                                     </div>
                                     <p class="tour__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repudiandae ducimus odio saepe ullam.</p>
-                                    <a href="#" class="btn btn-view">Смотреть</a>
+                                    <a href="#" class="tour__btn btn">Смотреть</a>
                                 </div>
                             </li>
                         </ul>
@@ -119,7 +125,7 @@
                 </div>
             </section>
             <section class="news-stocks">
-                <div class="container">
+                <div class="news-stocks__container container">
                     <div class="news-stocks__content">
                         <h2 class="news-stocks__title">Новости и акции</h2>
                         <ul class="news-stocks__list">
@@ -160,7 +166,7 @@
                 </div>
             </section>
             <section class="about">
-                <div class="container">
+                <div class="about__container container">
                     <div class="about__content">
                         <div class="about__block-1">
                             <div class="about__img-1">
@@ -173,7 +179,9 @@
                             </div>
                             <div class="about__desc">
                                 <h3 class="about__title">О нас</h3>
-                                <div class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ut esse perferendis minus, suscipit eum libero est totam ipsum voluptas iste excepturi ipsam placeat cumque natus aspernatur! Sed nesciunt, suscipit obcaecati minima dolor, blanditiis rem cumque quo dignissimos architecto beatae?</div>
+                                <div class="about__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ut esse perferendis minus, suscipit eum libero est totam ipsum voluptas iste excepturi ipsam placeat cumque natus aspernatur! Sed nesciunt, suscipit obcaecati minima dolor, blanditiis rem cumque quo dignissimos architecto beatae?</p>
+                                </div>
                                 <a href="#" class="btn btn-detail">Подробнее</a>
                             </div>
                         </div>
@@ -182,36 +190,40 @@
             </section>
         </main>
         <footer class="page-footer">
-            <div class="container">
+            <div class="page-footer__container container">
                 <div class="page-footer__content">
-                    <div class="page-footer__logo site-logo">
-                        <a href="#" class="site-logo__link">
+                    <div class="page-footer__block-left">
+                        <div class="page-footer__logo site-logo">
+                        <a href="./index.html" class="site-logo__link">
                             <img src="./img/icons/лого.svg" alt="site-logo">
                         </a>
+                        </div>
+                        <nav class="page-footer__nav site-nav">
+                            <ul class="site-nav__list">
+                                <li class="site-nav__item site-nav__item-active">
+                                    <a href="./general.html" class="site-nav__link">Главная</a>
+                                </li>
+                                <li class="site-nav__item">
+                                    <a href="./services.html" class="site-nav__link">Услуги</a>
+                                </li>
+                                <li class="site-nav__item">
+                                    <a href="./feedback.html" class="site-nav__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
-                    <nav class="page-footer__nav site-nav">
-                        <ul class="site-nav__list">
-                            <li class="site-nav__item">
-                                <a href="./general.html" class="site-nav__link">Главная</a>
-                            </li>
-                            <li class="site-nav__item">
-                                <a href="./services.html" class="site-nav__link">Услуги</a>
-                            </li>
-                            <li class="site-nav__item">
-                                <a href="./feedback.html" class="site-nav__link">Отзывы</a>
-                            </li>
+                    <div class="page-footer__block-right">
+                        <ul class="page-footer__social social">
+                            <li class="social__item"><a href="#" class="social__link"></a></li>
+                            <li class="social__item"><a href="#" class="social__link"></a></li>
+                            <li class="social__item"><a href="#" class="social__link"></a></li>
+                            <li class="social__item"><a href="#" class="social__link"></a></li>
                         </ul>
-                    </nav>
-                    <ul class="page-footer__social social">
-                        <li class="social__item"><a href="#" class="social__link"></a></li>
-                        <li class="social__item"><a href="#" class="social__link"></a></li>
-                        <li class="social__item"><a href="#" class="social__link"></a></li>
-                        <li class="social__item"><a href="#" class="social__link"></a></li>
-                    </ul>
-                    <address class="page-footer__address footer-site-address">
-                        <div class="footer-site-address__text-2">бесплатный звонок по России</div>
-                        <a href="tel:+78007003030" class="footer-site-address__phone">8 800 700 30 30</a>
-                    </address>
+                        <address class="page-footer__address footer-site-address">
+                            <div class="footer-site-address__text-2">бесплатный звонок по России</div>
+                            <a href="tel:+78007003030" class="footer-site-address__phone">8 800 700 30 30</a>
+                        </address>
+                    </div>
                 </div>
             </div>
         </footer>

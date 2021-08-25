@@ -1,5 +1,6 @@
 .btn {
     display: block;
+    color: #fff;
     width: 168px;
     height: 55px;
     background: #F5170E;
@@ -10,19 +11,11 @@
     font-weight: bold;
     border-radius: 30px;
 }
-.btn-detail:hover {
+.btn:hover {
     box-shadow:  0 0 5px 0 #F5170E;
     background: #DA0100;
 }
-.btn-view {
-    background: white;
-    color: #F5170E;
-    border: solid 1px red;
+.tour__btn {
     width: 135px;
-    font-weight: bold;
-    border-radius: 30px;
 }
-.btn-view:hover {
-    background: #F5170E;
-    color: white;
-}
+

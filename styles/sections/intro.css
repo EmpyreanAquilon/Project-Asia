@@ -1,5 +1,5 @@
 .wrapper-intro {
-    background: #000e13 url('../../img/backgrounds/bg.png') center/contain no-repeat;
+    background: #000e13 url('../../img/backgrounds/bg.png') center/cover no-repeat;
     height: 100%;
     max-width: 1920px;
     margin: auto;
@@ -8,14 +8,16 @@
     align-items: center;
     
 }
-.intro__content {
+.intro__container {
     background: url('../../img/backgrounds/shades.png') no-repeat;
+}
+.intro__content {
     width: 591px;
     height: 248px;
     margin: 0 auto;
     padding: 60px 0px 0px 0px;
 }
-.intro__img {
+.intro__logo {
     margin: 0 auto;
     width: 279px;
     height: 119px;

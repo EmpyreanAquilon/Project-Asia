@@ -1,14 +1,7 @@
 .headline {
     height: 412px;
     background: url('../../img/backgrounds/headline.png') center no-repeat;
-}
-.headline .site-logo {
-    width: 106px;
-    height: 40px;
-    margin: 0 62px 5px 0;
-}
-.headline .site-nav__list {
-    margin: 4px 0px 0px 0px;
+    text-shadow: 0 0 3px #000;
 }
 .headline__content {
     margin-top: 70px;
@@ -36,4 +29,22 @@
 }
 .breadscrumbs__link {
 
+}
+@media (max-width:425px) {
+    .headline__content {
+        margin: 90px auto 0;
+        width: 70%;
+        min-height: 440px;
+        text-align: center;
+    }
+    .headline__title {
+        font-size: 40px;
+    }
+    .breadscrumbs {
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    .headline {
+        background-position: 57%;
+    }
 }

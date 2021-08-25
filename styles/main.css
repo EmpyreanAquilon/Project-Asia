@@ -1,17 +1,22 @@
+/* layout */
 @import url('./layout/layout.css');
-@import url('./components/intro.css');
-@import url('./components/header.css');
-@import url('./components/hero.css');
-@import url('./components/headline.css');
-@import url('./components/suggestion.css');
-@import url('./components/new-stocks.css');
-@import url('./components/about.css');
-@import url('./components/footer.css');
-@import url('./components/button.css');
-@import url('./components/sec-headline.css');
-@import url('./components/paginator.css');
-@import url('./components/reviews.css');
-@import url('./components/advertisement.css');
-@import url('./components/feedback.css');
-@import url('./components/services.css');
-@import url('./components/partners.css');
+/* sections */
+@import url('./sections/intro.css');
+@import url('./sections/header.css');
+@import url('./sections/hero.css');
+@import url('./sections/headline.css');
+@import url('./sections/suggestion.css');
+@import url('./sections/new-stocks.css');
+@import url('./sections/about.css');
+@import url('./sections/footer.css');
+@import url('./sections/sec-headline.css');
+@import url('./sections/reviews.css');
+@import url('./sections/advertisement.css');
+@import url('./sections/feedback.css');
+@import url('./sections/services.css');
+@import url('./sections/partners.css');
+/* elements */
+@import url('./elements/button.css');
+@import url('./elements/paginator.css');
+@import url('./elements/social.css');
+@import url('./elements/address.css');

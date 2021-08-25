@@ -10,12 +10,12 @@
 </head>
 <body>
     <div class="wrapper wrapper-services">
-        <header class="headline">
-            <div class="container">
-                <div class="page-header">
+        <section class="headline">
+            <header class="page-header">
+                <div class="page-header__container container">
                     <div class="page-header__content">
                         <div class="page-header__logo site-logo">
-                            <a href="#" class="site-logo__link">
+                            <a href="./index.html" class="site-logo__link">
                                 <img src="./img/icons/лого.svg" alt="site-logo">
                             </a>
                         </div>
@@ -24,7 +24,7 @@
                                 <li class="site-nav__item">
                                     <a href="./general.html" class="site-nav__link">Главная</a>
                                 </li>
-                                <li class="site-nav__item">
+                                <li class="site-nav__item site-nav__item-active">
                                     <a href="./services.html" class="site-nav__link">Услуги</a>
                                 </li>
                                 <li class="site-nav__item">
@@ -42,11 +42,13 @@
                         </address>
                     </div>
                 </div>
+            </header>
+            <div class="headline__container container">
                 <div class="headline__content">
                     <h1 class="headline__title">Услуги</h1>
                     <ul class="headline__breadscrumbs breadscrumbs">
                         <li class="breadscrumbs__item">
-                            <a href="" class="breadscrumbs__link">Главная</a>
+                            <a href="./general.html" class="breadscrumbs__link">Главная</a>
                         </li>
                         <li class="breadscrumbs__item breadscrumbs__item-gap">/</li>
                         <li class="breadscrumbs__item breadscrumbs__item-current">
@@ -55,9 +57,9 @@
                     </ul>
                 </div>                    
             </div>
-        </header>
+        </section>
         <section class="services">
-            <div class="container">
+            <div class="services__container container">
                 <div class="services__content">
                     <ul class="services__list list-services">
                         <li class="list-services__item">
@@ -67,7 +69,7 @@
                             <div class="list-services__block">
                                 <h2 class="list-services__title">Водопад Янг-бей</h2>
                                 <p class="list-services__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eos similique deleniti possimus dolorum provident odit accusantium incidunt fugiat voluptas accusamus optio voluptate vel laudantium placeat, quia distinctio sint esse commodi. Cumque, eligendi ipsam. Facere fuga quod temporibus magni nesciunt.</p>
-                                <a href="" class="btn btn-view">Подробнее</a>
+                                <a href="" class="services__btn btn">Подробнее</a>
                             </div>
                         </li>
                         <li class="list-services__item">
@@ -77,10 +79,9 @@
                             <div class="list-services__block">
                                 <h2 class="list-services__title">Остров обезьян</h2>
                                 <p class="list-services__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eos similique deleniti possimus dolorum provident odit accusantium incidunt fugiat voluptas accusamus optio voluptate vel laudantium placeat, quia distinctio sint esse commodi. Cumque, eligendi ipsam. Facere fuga quod temporibus magni nesciunt.</p>
-                                <a href="" class="btn btn-view">Подробнее</a>
+                                <a href="" class="services__btn btn">Подробнее</a>
                             </div>
                         </li>
-                        
                     </ul>
                     <div class="reviews__paginator paginator">
                         <p class="paginator__text">Страница 1 из 7</p>
@@ -129,36 +130,40 @@
             </div>
         </section>
         <footer class="page-footer">
-            <div class="container">
+            <div class="page-footer__container container">
                 <div class="page-footer__content">
-                    <div class="page-footer__logo site-logo">
-                        <a href="#" class="site-logo__link">
+                    <div class="page-footer__block-left">
+                        <div class="page-footer__logo site-logo">
+                        <a href="./index.html" class="site-logo__link">
                             <img src="./img/icons/лого.svg" alt="site-logo">
                         </a>
+                        </div>
+                        <nav class="page-footer__nav site-nav">
+                            <ul class="site-nav__list">
+                                <li class="site-nav__item">
+                                    <a href="./general.html" class="site-nav__link">Главная</a>
+                                </li>
+                                <li class="site-nav__item site-nav__item-active">
+                                    <a href="./services.html" class="site-nav__link">Услуги</a>
+                                </li>
+                                <li class="site-nav__item">
+                                    <a href="./feedback.html" class="site-nav__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
-                    <nav class="page-footer__nav site-nav">
-                        <ul class="site-nav__list">
-                            <li class="site-nav__item">
-                                <a href="./general.html" class="site-nav__link">Главная</a>
-                            </li>
-                            <li class="site-nav__item">
-                                <a href="./services.html" class="site-nav__link">Услуги</a>
-                            </li>
-                            <li class="site-nav__item">
-                                <a href="./feedback.html" class="site-nav__link">Отзывы</a>
-                            </li>
+                    <div class="page-footer__block-right">
+                        <ul class="page-footer__social social">
+                            <li class="social__item"><a href="#" class="social__link"></a></li>
+                            <li class="social__item"><a href="#" class="social__link"></a></li>
+                            <li class="social__item"><a href="#" class="social__link"></a></li>
+                            <li class="social__item"><a href="#" class="social__link"></a></li>
                         </ul>
-                    </nav>
-                    <ul class="page-footer__social social">
-                        <li class="social__item"><a href="#" class="social__link"></a></li>
-                        <li class="social__item"><a href="#" class="social__link"></a></li>
-                        <li class="social__item"><a href="#" class="social__link"></a></li>
-                        <li class="social__item"><a href="#" class="social__link"></a></li>
-                    </ul>
-                    <address class="page-footer__address footer-site-address">
-                        <div class="footer-site-address__text-2">бесплатный звонок по России</div>
-                        <a href="tel:+78007003030" class="footer-site-address__phone">8 800 700 30 30</a>
-                    </address>
+                        <address class="page-footer__address footer-site-address">
+                            <div class="footer-site-address__text-2">бесплатный звонок по России</div>
+                            <a href="tel:+78007003030" class="footer-site-address__phone">8 800 700 30 30</a>
+                        </address>
+                    </div>
                 </div>
             </div>
         </footer>

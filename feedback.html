@@ -10,12 +10,12 @@
 </head>
 <body>
     <div class="wrapper wrapper-feedback">
-        <header class="headline">
-            <div class="container">
-                <div class="page-header">
+        <section class="headline">
+            <header class="page-header">
+                <div class="page-header__container container">
                     <div class="page-header__content">
                         <div class="page-header__logo site-logo">
-                            <a href="#" class="site-logo__link">
+                            <a href="./index.html" class="site-logo__link">
                                 <img src="./img/icons/лого.svg" alt="site-logo">
                             </a>
                         </div>
@@ -27,7 +27,7 @@
                                 <li class="site-nav__item">
                                     <a href="./services.html" class="site-nav__link">Услуги</a>
                                 </li>
-                                <li class="site-nav__item">
+                                <li class="site-nav__item  site-nav__item-active">
                                     <a href="./feedback.html" class="site-nav__link">Отзывы</a>
                                 </li>
                             </ul>
@@ -42,11 +42,13 @@
                         </address>
                     </div>
                 </div>
+            </header>
+            <div class="headline__container container">
                 <div class="headline__content">
                     <h1 class="headline__title">Отзывы</h1>
                     <ul class="headline__breadscrumbs breadscrumbs">
                         <li class="breadscrumbs__item">
-                            <a href="" class="breadscrumbs__link">Главная</a>
+                            <a href="./general.html" class="breadscrumbs__link">Главная</a>
                         </li>
                         <li class="breadscrumbs__item breadscrumbs__item-gap">/</li>
                         <li class="breadscrumbs__item breadscrumbs__item-current">
@@ -55,10 +57,10 @@
                     </ul>
                 </div>                    
             </div>
-        </header>
+        </section>
         <main class="page-main">
             <section class="reviews">
-                <div class="container">
+                <div class="reviews__container container">
                     <div class="reviews__content">
                         <ul class="reviews__list">
                             <li class="reviews__item review-block">
@@ -146,7 +148,7 @@
                 </div>
             </section> 
              <section class="advertisemen">
-                <div class="container">
+                <div class="advertisemen__container container">
                     <div class="advertisemen__content">                        
                         <h2 class="advertisemen__title">
                             Подберем тур по вашим пожеланиям
@@ -158,7 +160,7 @@
                 </div>
             </section>
             <section class="feedback">
-                <div class="container">
+                <div class="feedback__container container">
                     <div class="feedback__content">
                         <h2 class="feedback__title">
                             Оставьте отзыв
@@ -167,61 +169,69 @@
                             <input type="text" placeholder="Игорь Петрович" class="form__name">
                             <input type="text" placeholder="Ссылка на профиль VK" class="form__profile">
                             <textarea name="" id="" placeholder="Напишите свой честный отзыв ;)" class="form__field"></textarea>
-                            <p class="form__text">Какими услугами компании пользуетесь?</p>
-                            <div class="form__checkbox-block">
-                                <input type="checkbox" id="check1" class="form__checkbox">
-                                <label for="check1" class="form__checkbox-label">Остров обезьян</label>
-                                <input type="checkbox" id="check2" class="form__checkbox">
-                                <label for="check2" class="form__checkbox-label">Тур по Тайланду</label>
-                                <input type="checkbox" id="check3" class="form__checkbox">
-                                <label for="check3" class="form__checkbox-label">Водопад Янг-бей</label>
-                                <input type="checkbox" id="check4" class="form__checkbox">
-                                <label for="check4" class="form__checkbox-label">Тур по Индонезии</label>
-                                <input type="checkbox" id="check5" class="form__checkbox">
-                                <label for="check5" class="form__checkbox-label">Никакими</label>
-                                <input type="checkbox" id="check6" class="form__checkbox">
-                                <label for="check6" class="form__checkbox-label">Тур по Бали</label>
-                                <input type="checkbox" id="check7" class="form__checkbox">
-                                <label for="check7" class="form__checkbox-label">Другое</label>
-                            </div>
-                            <button class="form__clear btn">Очистить</button>
-                            <input type="submit" class="form__submit btn">
+                            <div class="form__block">  
+                                <p class="form__text">Какими услугами компании пользуетесь?</p>
+                                <div class="form__checkbox-block">
+                                    <input type="checkbox" id="check1" class="form__checkbox">
+                                    <label for="check1" class="form__checkbox-label">Остров обезьян</label>
+                                    <input type="checkbox" id="check2" class="form__checkbox">
+                                    <label for="check2" class="form__checkbox-label">Тур по Тайланду</label>
+                                    <input type="checkbox" id="check3" class="form__checkbox">
+                                    <label for="check3" class="form__checkbox-label">Водопад Янг-бей</label>
+                                    <input type="checkbox" id="check4" class="form__checkbox">
+                                    <label for="check4" class="form__checkbox-label">Тур по Индонезии</label>
+                                    <input type="checkbox" id="check5" class="form__checkbox">
+                                    <label for="check5" class="form__checkbox-label">Никакими</label>
+                                    <input type="checkbox" id="check6" class="form__checkbox">
+                                    <label for="check6" class="form__checkbox-label">Тур по Бали</label>
+                                    <input type="checkbox" id="check7" class="form__checkbox">
+                                    <label for="check7" class="form__checkbox-label">Другое</label>
+                                </div>
+                            </div>  
+                            <div class="form__block-btn">  
+                                <button class="form__clear btn">Очистить</button>
+                                <input type="submit" class="form__submit btn">
+                            </div> 
                         </form>
                     </div>
                 </div>
             </section>
         </main>
         <footer class="page-footer">
-            <div class="container">
+            <div class="page-footer__container container">
                 <div class="page-footer__content">
-                    <div class="page-footer__logo site-logo">
-                        <a href="#" class="site-logo__link">
+                    <div class="page-footer__block-left">
+                        <div class="page-footer__logo site-logo">
+                        <a href="./index.html" class="site-logo__link">
                             <img src="./img/icons/лого.svg" alt="site-logo">
                         </a>
+                        </div>
+                        <nav class="page-footer__nav site-nav">
+                            <ul class="site-nav__list">
+                                <li class="site-nav__item">
+                                    <a href="./general.html" class="site-nav__link">Главная</a>
+                                </li>
+                                <li class="site-nav__item">
+                                    <a href="./services.html" class="site-nav__link">Услуги</a>
+                                </li>
+                                <li class="site-nav__item site-nav__item-active">
+                                    <a href="./feedback.html" class="site-nav__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
-                    <nav class="page-footer__nav site-nav">
-                        <ul class="site-nav__list">
-                            <li class="site-nav__item">
-                                <a href="./general.html" class="site-nav__link">Главная</a>
-                            </li>
-                            <li class="site-nav__item">
-                                <a href="./services.html" class="site-nav__link">Услуги</a>
-                            </li>
-                            <li class="site-nav__item">
-                                <a href="./feedback.html" class="site-nav__link">Отзывы</a>
-                            </li>
+                    <div class="page-footer__block-right">
+                        <ul class="page-footer__social social">
+                            <li class="social__item"><a href="#" class="social__link"></a></li>
+                            <li class="social__item"><a href="#" class="social__link"></a></li>
+                            <li class="social__item"><a href="#" class="social__link"></a></li>
+                            <li class="social__item"><a href="#" class="social__link"></a></li>
                         </ul>
-                    </nav>
-                    <ul class="page-footer__social social">
-                        <li class="social__item"><a href="#" class="social__link"></a></li>
-                        <li class="social__item"><a href="#" class="social__link"></a></li>
-                        <li class="social__item"><a href="#" class="social__link"></a></li>
-                        <li class="social__item"><a href="#" class="social__link"></a></li>
-                    </ul>
-                    <address class="page-footer__address footer-site-address">
-                        <div class="footer-site-address__text-2">бесплатный звонок по России</div>
-                        <a href="tel:+78007003030" class="footer-site-address__phone">8 800 700 30 30</a>
-                    </address>
+                        <address class="page-footer__address footer-site-address">
+                            <div class="footer-site-address__text-2">бесплатный звонок по России</div>
+                            <a href="tel:+78007003030" class="footer-site-address__phone">8 800 700 30 30</a>
+                        </address>
+                    </div>
                 </div>
             </div>
         </footer>

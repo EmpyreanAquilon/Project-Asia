@@ -1,0 +1,86 @@
+.suggestions {
+    color: #000;
+    margin: 0px 0px 115px 0px;
+}
+.suggestions__content {
+
+}
+.suggestions__title {
+    margin: 0 0 50px;
+    color: #fff;
+    font-size: 36px;
+}
+.suggestions__title img {
+    width: 21px;
+    margin-left: 5px;
+}
+.suggestions__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tour {
+    background: white;
+    width: 350px;
+    min-height: 450px;
+    margin: 0px 0px 20px 0px;
+    border-radius: 5px;
+}
+.tour__info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 33px 22px 26px;
+}
+.tour__title {
+    font-size: 24px;
+}
+.tour__block-icons {
+    display: flex;
+    margin: 18px 0px 24px;
+}
+.tour__duration {
+    margin: 0px 30px 0px 0px;
+}
+.tour__food img, .tour__duration img {
+    margin-right: 4px;
+    position: relative;
+    top: 7px;
+}
+.tour__food img {
+    width: 36px;
+}
+.tour__duration img {
+    width: 26px;
+}
+.tour__btn {
+    margin-top: 25px;
+    
+}
+
+@media (max-width:425px) {
+    .suggestions__title {
+        text-align: center;
+        font-size: 30px;
+    }
+    .tour {
+        width: 350px;
+        height: 450px;
+        margin: 0px 0px 15px 0px;
+        text-align: center;
+    }
+    .tour__btn {
+        align-self: stretch;
+        /* margin: auto; */
+    }
+    .tour__duration {
+        margin: 0px 30px 0px 20px;
+    }
+    .tour__btn {
+        align-self: center;
+    }
+    .suggestions__list {
+        justify-content: center;
+    }
+}
