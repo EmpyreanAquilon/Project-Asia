@@ -6,25 +6,41 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    position: relative;
 }
 .header-site-address__phone {
     padding: 0px 0px 0px 0px;
     font-size: 26px;
 }
+/* dropdown */
 .header-site-address__dropdown-title {
     display: inline-block;   
     font-size: 13px;
     text-decoration: underline;
+    cursor: pointer;
+    position: relative;
 }
-/* window */
-.header-site-address__dropdown-title:hover + .header-site-address__dropdown-window {
-    display: block;
+.header-site-address__dropdown-title:hover {
+
+}
+.header-site-address__dropdown-title:hover .header-site-address__dropdown-window {
+    opacity: 1;
+    right: 0;
+    transition: opacity 0.4s;
+}
+.header-site-address__dropdown-window::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    right: 0;
+    top: -14px;
 }
 .header-site-address__dropdown-window {
-    display: none;
+    opacity: 0;
     position: absolute;
-    top: 47px;
-    right: 5px;
+    top: 20px;
+    right: -1000px;
     color: #1E1F20;
     font-size: 13px;
     font-weight: bold;

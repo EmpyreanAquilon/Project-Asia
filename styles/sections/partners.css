@@ -16,7 +16,18 @@
 .partners__item {
     flex: 0 1 21%;
     margin: 0px 0px 70px 0px;
+    text-align: center;
 }
 .partners__item img{
     width: auto;
+}
+@media (max-width:425px) {
+    .partners__item {
+        flex: 0 1 100%;
+        margin-bottom: 40px;
+    }
+    .partners__title {
+        text-align: center;
+        font-size: 30px;
+    }
 }

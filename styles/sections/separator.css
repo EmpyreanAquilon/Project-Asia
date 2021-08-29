@@ -1,0 +1,28 @@
+.separator {
+    background: rgb(223, 133, 133) url('../../img/feedback/Rectangle.png') center no-repeat;
+    margin-top: 60px;
+}
+.separator__content {
+    position: relative;
+    min-height: 363px;
+}
+.separator__image {
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    width: 487px;
+}
+.separator__title {
+    color: #fff;
+    font-size: 48px;
+    line-height: 65px;
+    max-width: 600px;
+    padding: 117px 0px 116px;
+    position: relative;
+    z-index: 2;
+}
+@media (max-width:425px){
+    .separator__title {
+        font-size: 36px;
+    }
+}

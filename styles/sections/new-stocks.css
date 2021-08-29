@@ -56,5 +56,6 @@
 @media (max-width:425px) {
     .news-stocks__title {
         text-align: center;
+        font-size: 30px;
     }
 }

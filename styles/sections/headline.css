@@ -21,6 +21,9 @@
     color: #9A9A9A;
     text-decoration: underline;
 }
+.breadscrumbs__item:hover {
+    color: red;
+}
 .breadscrumbs__item-current {
     font-weight: bold;
 }
